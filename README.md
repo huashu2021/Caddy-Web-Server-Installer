@@ -49,6 +49,12 @@ caddy version  #检测脚本/Caddy/PHP5-fpm版本信息
 
 See list of available commands [here.](https://github.com/sayem314/Caddy-Web-Server-Installer/wiki/Command-List)
 
+#### 安装caddy的时候会要求你输入域名，邮箱（帮你自动签发ssl），然后使用命令启动caddy即可！
+
+虚拟主机文件夹：/var/caddywww
+
+配置文件夹：/etc/Caddyfile
+
 #### Contribute?
 
 Contributions are always welcome - if you have any code to contribute, simply fork this, create a new branch and submit a pull request! Otherwise, if you find any bugs or issues, please open an issue!
