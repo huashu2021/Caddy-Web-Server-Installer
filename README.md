@@ -18,6 +18,20 @@ See [Installation](https://github.com/sayem314/Caddy-Web-Server-Installer/wiki/I
 
 - CentOS - 6.8 and 7.2
 
+#### 然后使用下列命令进行操作
+caddy start  #开启Caddy Web Server
+caddy stop  #停止Caddy Web Server
+caddy reload  #重载Caddy Web Server
+caddy restart  #重启Caddy Web Server
+caddy status  #查看Caddy Web Server状态
+caddy install  #安装Caddy Web Server
+caddy edit  #编辑配置文件Caddyfile
+caddy service  #使Caddy Web Server成为一项服务(upstart/systemd)
+caddy update  #升级Caddy Web Server
+caddy delete  #卸载Caddy and data
+caddy about  #关于Caddy Web Server
+caddy version  #检测脚本/Caddy/PHP5-fpm版本信息
+
 #### Example command to install with plugins:
 
 `caddy install http.cache,http.filemanager,http.ipfilter,http.ratelimit`
